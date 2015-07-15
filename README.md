@@ -2,20 +2,20 @@
 
 Users of JBrowse should get it from the main JBrowse site at http://jbrowse.org/install.
 
-Unless you intend to work on the JBrowse code itself, or develop a JBrowse plugin, stop reading now and go to http://jbrowse.org/install.
+Unless you intend to work on the JBrowse code itself or develop a JBrowse plugin, stop reading now and install from http://jbrowse.org/install.
 
 # About running from a `git` clone
 
 Only developers should run JBrowse from a git repository.
 For one reason, the development version has a much, much slower initial load
-time than the built release zipfiles.  Also, since the master branch code is ''in development'' for the next JBrowse release, it often (usually?) contains bad bugs, much more so than the official releases put up on JBrowse.org.
+time than the built release zipfiles.  Also, since the master branch code is ''in development'' for the next JBrowse release, it often contains bugs that never make it into the official releases put up on JBrowse.org.
 
 # Setting up a development environment
 
 Make sure you have a web server installed on your development machine.  Any web server will do.
 
     cd /my/dev/webserver/root;
-    git clone --recursive git@github.com:YOURACCOUNT/jbrowse.git
+    git clone --recursive git@github.com:GMOD/jbrowse.git
     cd jbrowse
     ./setup.sh
     # and now point your browser to
